@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gelasio&family=Inter:wght@400;500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    /* * {
+        @apply m-0 p-0 box-border text-base outline-purple/30 duration-100;
+    } */
+
+    html{
+        @apply overflow-x-hidden;
+    }
+
+    body {
+        @apply font-inter font-normal text-black;
+    }
+
+    i {
+        @apply mt-0.5;
+    }
+
+    section{
+        @apply py-4 px-[5vw] md:px-[7vw] lg:px-[10vw];
+    }
+
+    /* ::selection {
+        @apply bg-purple/30;
+    } */
+
+    img{
+        @apply w-full h-full object-cover;
+    }
+
+    /* .navbar{
+        @apply z-10 top-0 flex items-center gap-5 w-full px-[5vw] py-5 h-[80px]   bg-white;
+    } */
+
+    .h-cover{
+        @apply min-h-[calc(100vh-80px)];
+    }
+
+    .center{
+        @apply block mx-auto;
+    }
+
+    .btn-dark{
+        @apply whitespace-nowrap bg-black text-white rounded-full py-3 px-6 text-xl capitalize hover:bg-opacity-80;
+    }
+
+    .btn-light{
+        @apply btn-dark text-black;
+    }
+
+    .input-box {
+        @apply  rounded-md py-2 text-[14px] bg-gray-50 pl-12 border   focus:bg-transparent placeholder:text-black;
+    }
+
+    .input-box1 {
+        @apply  rounded-md py-2 text-[14px] bg-gray-50 border pl-2 focus:bg-transparent placeholder:text-black;
+    }
+
+    input:disabled, input:disabled ~ .input-icon{
+        @apply opacity-50;
+    }
+
+    .input-icon{
+        @apply absolute left-4 top-1/2 -translate-y-1/2;
+    }
+}
