@@ -9,7 +9,7 @@ const Home = () => {
     <>
 
     <AnimationWrapper>
-    <div className="lg:px-160 mt-[110px] flex min-h-[400px] items-center justify-center px-4 md:px-8">
+    <div className="lg:px-160 mt-[10px] flex min-h-[400px] items-center justify-center px-4 md:px-8">
         <div className="m-1 rounded-lg bg-gray-50">
           <section className="grid grid-cols-1 md:grid-cols-2 md:gap-5">
             <div className="mt-20 flex flex-col justify-center">
@@ -24,9 +24,9 @@ const Home = () => {
               </button>
             </div>
 
-            <div className="flex flex-col items-center justify-center">
-              <img src={vote} alt="People Voting" className="w-[500px]" />
-              <h2 className="border">
+            <div className="flex flex-col mt-5 items-center justify-center">
+              <img src={vote} alt="People Voting" className="ml-20" />
+              <h2 className="font-bold text-center text-2xl">
                 Now Everyone Can participate
               </h2>
             </div>
@@ -35,7 +35,7 @@ const Home = () => {
       </div>
 
 
-      <section className="mt-[200px] grid grid-cols-1 md:mt-[120px] md:grid-cols-2 md:gap-5">
+      <section className="mt-[1px] grid grid-cols-1 md:mt-[20px] md:grid-cols-2 md:gap-5">
         <div className="mt-10">
           <h1 className="text-5xl font-bold">
             The same experience online,even better
@@ -53,7 +53,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="mt-[200px] md:mt-[120px]">
+      <section className="mt-[10px] md:mt-[20px]">
         <div className="flex flex-col items-center justify-center lg:px-16 md:px-8 min-h-80 rounded-lg bg-gray-100 px-4">
           <h1 className="text-center text-4xl font-bold text-gray-800">
             Download The App To Get Started
