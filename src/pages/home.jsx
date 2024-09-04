@@ -2,6 +2,7 @@ import vote from "../assets/onlinevote.png";
 import sensi from "../assets/sinsei.png";
 import AnimationWrapper from "../common/page-animation";
 import Footer from "../components/footer";
+import {Link} from "react-router-dom"
 
 
 const Home = () => {
@@ -14,10 +15,10 @@ const Home = () => {
           <section className="grid grid-cols-1 md:grid-cols-2 md:gap-5">
             <div className="mt-20 flex flex-col justify-center">
               <h3 className=" text-5xl font-[800] uppercase">
-                Instant Bulk Voting With Just A Tap
+                Instant Voting With Just A Tap
               </h3>
               <p className="text-[18px] my-4">
-                No Clueless Code, Categories Prefixes
+                Transparent & Secured
               </p>
               <button className="btn-dark mt-2 w-fit rounded-full bg-gray-200 text-[16px] text-gray-800">
                 Get The App
@@ -29,6 +30,9 @@ const Home = () => {
               <h2 className="font-bold text-center text-2xl">
                 Now Everyone Can participate
               </h2>
+              <h2 className="font-bold text-center text-sm">
+                From your comfort!!!
+              </h2>
             </div>
           </section>
         </div>
@@ -38,14 +42,15 @@ const Home = () => {
       <section className="mt-[1px] grid grid-cols-1 md:mt-[20px] md:grid-cols-2 md:gap-5">
         <div className="mt-10">
           <h1 className="text-5xl font-bold">
-            The same experience online,even better
+            The same experience online even better and faster
           </h1>
           <h3 className="mt-2">
             For those who are hooked to their PCs, we got you, Sensei
           </h3>
-          <button className="btn-dark mt-5 w-fit rounded-full bg-gray-200 text-[16px] text-gray-800">
+         <Link to="/create"> <button className="btn-dark mt-5 w-fit rounded-full bg-gray-200 text-[16px] text-gray-800">
             Vote Online
           </button>
+          </Link>
         </div>
 
         <div className="flex items-center justify-center">

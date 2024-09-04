@@ -23,8 +23,8 @@ const Footer = () => {
           <div>
             <h3 className="font-gelaxio text-2xl font-bold">Contact</h3>
             <ul>
-              <li>fitech@community.com</li>
-              <li>+23490123456</li>
+              <li>Electra-vote@gmail.com </li>
+              <li>+234-Electra-vote</li>
             </ul>
           </div>
         </footer>
