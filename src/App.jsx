@@ -6,6 +6,7 @@ import Home from './pages/home'
 import CreatePage from './pages/create'
 import Contact from './pages/contact'
 import About from './pages/about'
+import Card from './pages/card'
 
 const  App=()=> {
   
@@ -17,6 +18,7 @@ const  App=()=> {
               <Route path='/create' element={<CreatePage/>}/>
               <Route path='/contact' element={<Contact/>}/>
               <Route path='/about' element = {<About/>}/>
+              <Route path='/card' element ={<Card/>}/>
           </Route>
 
 
